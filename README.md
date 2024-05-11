@@ -5,13 +5,15 @@
     Matt Mella
     Wilson Stoddard
 
+### Abstract
+
+We investigate the use of optimal control to maximize the fish harvested by a large fleet of fishing ships. In particular, we seek to use Pontryagin’s Maximum Principle and bang-bang control theory to find the most efficient path for each ship to take given that we can control the ships’ targets.
+
 <div align="center">
   <img src="visualizations/controlled-notcontrolled.gif" alt="This is a PNG image." width=900>
 </div>
     
-### Abstract
 
-We investigate the use of optimal control to maximize the fish harvested by a large fleet of fishing ships. In particular, we seek to use Pontryagin’s Maximum Principle and bang-bang control theory to find the most efficient path for each ship to take given that we can control the ships’ targets.
 ### Background
 
 When developing a project idea, we wanted to focus on a broad class of problems involving the control of a group of agents moving through space in order to visit points of interest. To illustrate, controlling a fleet of drones photograph potential threats on a battlefield, flying a group of helicopters to dump water on forest fires, and using drones to do do search-and-rescue are all examples of this type of problem.
