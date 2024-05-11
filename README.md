@@ -290,6 +290,3 @@ Nonetheless, our model and implementation of optimal control has clearly led to 
 [4] Roland Pulch, Bernd Kugelmann. “Robust optimal control of fishing in a three competing species model,” 2018.
 
 [5] Miele et al. “Optimal control of a ship for collision avoidance maneuvers,” 1999.
-We give Dr. Evans, Dr. Whitehead, and other instructors at BYU teaching ACME classes permission to share our project as an example of a good project in future classes they teach.
-
-Xander de la Bruere, Jakob Gertsch, Sam Layton, Matt Mella, and Wilson Stoddard
