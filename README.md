@@ -89,8 +89,14 @@ The cost functional consists of three main terms, each scaled by a tunable param
 \sum_{i=1}^{N}\sum_{l=1}^{N} \frac{1}{\varepsilon +\lVert x_l - x_i \rVert^2 }
 ```
 
-is large when ships are close together, thus rewarding boats for spreading out rather than converging to the same fishing ground. The second, $\gamma \sum_{i=1}^{N} \lVert \dot{x_i} \rVert$, penalizes curved paths, which are costly in terms of both time and fuel. The last term 
+is large when ships are close together, thus rewarding boats for spreading out rather than converging to the same fishing ground. The second
 
+```math
+\gamma \sum_{i=1}^{N} \lVert \dot{x_i} \rVert
+```
+
+penalizes curved paths, which are costly in terms of both time and fuel. The last term 
+ 
 ```math 
 \delta\sum_{j=1}^{K}F_j(t_f)$$
 ```
@@ -194,7 +200,7 @@ Additionally, taking $D_{u_{i,k+1}}H = 0$ implies a bang-bang solution for speed
 u_{i,k+1} =
 \begin{cases}
 V & \text{if } \frac{p_i^{T}s_i}{\lVert s_i \rVert} + \gamma > 0,\\
-0 & \text{else}.\\
+0 & \text{else}
 \end{cases}
 ```
 
