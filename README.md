@@ -249,11 +249,11 @@ R_{it} = \sum_{j=1}^k (u_{ij,t-1} - u_{ij})^2
 In the figure below, we can see that including $R_{it}$ in the control leads a much more continuous solution than solutions found without it.
 
 <div style="text-align: center;">
-    <img src="visualizations/bree.png" alt="This is a PNG image." width=400>
+    <img src="visualizations/no_reg.png" alt="This is a PNG image." width=400>
 </div>
 
 <div style="text-align: center;">
-    <img src="visualizations/bruh.png" alt="This is a PNG image." width=400>
+    <img src="visualizations/with_reg.png" alt="This is a PNG image." width=400>
 </div>
 
 Thus, for each time step we iterate forward and backward, solving this minimization problem each time step to find the evolution of our optimal control. Once these implicitly-found controls converge after a sufficient number of iterations, we have our final control throughout time. See the figure below.  
