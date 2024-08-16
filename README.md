@@ -1,7 +1,7 @@
 ## Somethin' Fishy - Fishing and Optimal Control
+    Sam Layton
     Xander de la Bruere
     Jakob Gertsch
-    Sam Layton
     Matt Mella
     Wilson Stoddard
 
