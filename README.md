@@ -98,7 +98,7 @@ is large when ships are close together, thus rewarding boats for spreading out r
 penalizes curved paths, which are costly in terms of both time and fuel. The last term 
  
 ```math 
-\delta\sum_{j=1}^{K}F_j(t_f)$$
+\delta\sum_{j=1}^{K}F_j(t_f)
 ```
 
 penalizes the amount of fish remaining unharvested in the fishing grounds at the end of the time interval.
@@ -260,7 +260,7 @@ Thus, for each time step we iterate forward and backward, solving this minimizat
 
 The final caveat we must address is how our minimization problem involves $p_i$, which itself will change if $u_{ij}$ changes. Thus, rather than trying to pin down this moving target, we simply use the $p_i$ at the previous iteration so that our implementation is more tractable.
 
-### Interpretationx
+### Interpretation
 
 After implementing our solution, we find that for small and simple systems, we are able to successfully control the trajectory of the ships in an optimal manner. In particular, we observe that ships crowd together less and travel in straighter paths. In addition, we find that after implementing our optimal control, the inner product of the costate and the orthogonal vector to the attractive force sum term, $s_i$, vanishes, as predicted by our model.
 
